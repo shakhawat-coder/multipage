@@ -70,6 +70,30 @@ ul,li{
 }
 
 
+/* ===============banner section============ */
+#banner{
+    padding: 218px 0 128px;
+    background-color: var(--primary);
+}
+.banner_text h1{
+    color: var(--white);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px; 
+}
+.banner_text p{
+    color: var(--white);
+    opacity: .7;
+    padding: 24px 0 48px;
+}
+.banner_btn{
+    padding: 16px 56px;
+    margin-right: 40px;
+}
+
+
 
 
 
