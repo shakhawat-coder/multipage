@@ -62,8 +62,14 @@ h3{
     font-style: normal;
     font-weight: 600;
     line-height: 56px; 
-    
-
+}
+h4{
+    color: var(--Dark-blue);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; 
 }
 .section_header{
     text-align: center;
@@ -311,7 +317,73 @@ h3{
     color: var(--dark-blue);
 }
 
+/* ======================Blog Page============= */
+#blog_header{
+    padding: 128px 0;
+}
+#blog_header .section_header h2{
+    width: 950px;
+    margin: 0 auto;
+}
+#blog_header .section_header span{
+    opacity: 1;
+    margin-bottom: 32px;
+}
+#blog_header .section_header p{
+    width: 830px;
+    margin: 0 auto;
+    padding: 48px 0 16px;
+}
+#blog_header .section_header a{
+    color: var(--royal-blue);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+#our_blog .section_header{
+    padding-bottom: 48px;
+} 
 
+/* =================Our blog section============= */
+.blog_wrapper{
+    row-gap: 64px;
+    margin-bottom: 128px;
+}
+#our_blog .card{
+    border: none;
+    border-radius: 0;
+}
+#our_blog .card .card-body{
+   padding: 0;
+}
+
+#our_blog .card-img, .card-img-top {
+    border-radius: 0;
+    margin-bottom: 32px;
+}
+#our_blog .card .card-body .card-title{
+    color: var(--Dark-blue);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: .7;
+}
+#our_blog .card .card-body h4{
+    padding: 16px 0 ;
+}
+#our_blog .card .card-body a{
+    color: var(--dark-blue);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding-top: 24px;
+}
 
 /* ===================Footer section=========== */
 .upper_footer{
