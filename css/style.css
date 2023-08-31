@@ -4,6 +4,7 @@
     --white:#ffffff;
     --yellow: #FCD980;
     --dark-blue:#282938;
+    --grey: #F4F6FC;
     --transition: all linear .3s;
 }
 *{
@@ -42,6 +43,23 @@ ul,li{
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
+}
+h2{
+    color: var(--dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+}
+.section_header h2{
+    text-align: center;
+    padding-bottom: 16px;
+}
+.section_header p{
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.7;
 }
 /* ============NavBar section============ */
 .navbar{
@@ -98,8 +116,35 @@ ul,li{
 
 
 
-
-
+/* =======================Contact page==================== */
+#contact{
+    padding: 128px 0;
+}
+#contact .section_header p{
+    width: 520px;
+    padding-bottom: 64px;
+}
+#contact form{
+    background: var(--grey);
+    border-radius: 12px;
+    padding: 55px 76px 69px 77px;
+}
+#contact form input,#contact form textarea{
+    background-color: transparent;
+    margin-bottom: 24px;
+    outline: 0;
+}
+#contact form input{
+    height: 62px; 
+    margin-bottom: 24px;
+}
+#contact form textarea{
+    height: 138px; 
+}
+#contact form input:focus,#contact form textarea:focus{
+    box-shadow: none;
+    
+}
 
 
 
