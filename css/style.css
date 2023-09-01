@@ -467,6 +467,11 @@ span{
     font-weight: 500;
     line-height: 32px;
 }
+
+/* ========================================About Page================== */
+#logo_section{
+    padding: 96px 0;
+}
 /* =======================Contact page==================== */
 #contact{
     padding: 128px 0;
