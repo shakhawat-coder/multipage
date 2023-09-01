@@ -298,7 +298,7 @@ span{
 }
 .index_feature_wrapper .index_feature_item{
     background: var(--white);
-    padding: 45px;
+    padding: 45px 0 45px 48px;
 }
 .index_feature_wrapper .index_feature_item h5{
     padding: 22px 0 12px;
@@ -310,6 +310,7 @@ span{
 /* ============Testimonial section===========/ */
 #testimony{
     padding: 128px 0;
+    background: rgba(244, 246, 252, 0.7);
 }
 #testimony .section_header p{
     width: 327px;
@@ -364,10 +365,108 @@ span{
     font-size: 22px;
     color: var(--dark-blue);
 }
-#testimony .arrows .prev_arrow
-#testimony .arrows .prev_arrow
-#testimony .arrows .prev_arrow
-
+/* ==============faq section=========== */
+#faq{
+    padding: 128px 0;
+}
+#faq .section_header h3{
+    padding-bottom: 16px;
+}
+.accordion-header{
+    color: var(--Dark-blue, #282938);
+/* Heading 6 */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+}
+.accordion-header .count{
+    color: var(--Royal-Blue, #2405F2);
+    padding-right: 55px;
+}
+.accordion-header .accordion-button::after{
+    display: none;
+}
+.accordian_item{
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+   
+}
+.accordion-button:focus {
+   
+    box-shadow: none;
+}
+.accordion-button.collapsed .accordian_icon{
+    rotate: 0deg;
+    transition: var(--transition);
+}
+.accordion-button .accordian_icon{
+    rotate: 45deg;
+    transition: var(--transition);
+}
+/* ==============index contact section============== */
+#index_contact{
+    padding: 0 0 128px; 
+}
+#index_contact h1{
+    width: 464px;
+    color: var(--white);
+}
+#index_contact p{
+    width: 464px;
+    color: var(--white);
+    opacity: 1;
+    padding-top: 24px;
+}
+#index_contact .contact_form{
+    padding: 96px 96px 48px;
+    /* width: 432px; */
+    background: var(--primary);
+    color: var(--white);
+}
+#index_contact .contact_form h5{
+    width: 432px;
+    background: var(--primary);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+#index_contact .contact_form p{
+    margin-bottom: 40px;
+}
+#index_contact .contact_form input{
+    width: 432px;
+    color: var(--white);
+    background: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    margin-bottom: 16px;
+    height: 64px;
+}
+#index_contact .contact_form input::placeholder{
+    color: var(--white);
+    opacity: .5;
+}
+#index_contact .contact_form form button{
+    margin-top: 16px;
+}
+#index_contact .contact_form form .index_contact_btn{
+    padding: 16px 150px;
+    margin-bottom: 28px;
+}
+#index_contact .contact_form a{
+    color: var(--White);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
 /* =======================Contact page==================== */
 #contact{
     padding: 128px 0;
@@ -393,7 +492,7 @@ span{
 #contact form textarea{
     height: 138px; 
 }
-#contact form input:focus,#contact form textarea:focus{
+#contact form input:focus,#contact form textarea:focus,#index_contact .contact_form input{
     box-shadow: none;
     
 }
