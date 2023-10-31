@@ -49,6 +49,33 @@
     }
 
 /* ===============navbar section========== */
+/* =================about us page start================= */
+#about_banner {
+    padding: 60px 0;
+}
+#who_we_are .who_we_are_wrapper,#about_us  #index_feature,#our_team  {
+    padding: 20px;
+}
+#process,#missoin_vission {
+    padding: 60px 0;
+}
+#missoin_vission .mission {
+    margin-bottom: 30px;
+}
+#index_feature .section_header h2 {
+    width: auto;
+}
+.index_feature_wrapper .index_feature_item {
+    padding: 10px;
+}
+#about_us #logo_section {
+    padding: 48px 0 60px;
+}
+#our_team .team_member {
+    
+    padding: 48px 40px 32px;
+}
+/* =================about us page end================= */
 
 /* ===============Privacy page=================== */
 .privacy_content {
@@ -153,13 +180,9 @@
 }
 }
 
-
-
 /* =====================small screen============= */
 @media (min-width:576px) and (max-width:767.99px) {
-      /* ================common=============== */
- 
-    /* ===============navbar section========== */
+      /* ===============navbar section========== */
     .navbar {
         padding: 10px 0;
         background: rgba(22, 12, 109);
@@ -190,7 +213,34 @@
         font-size: 16px;
     }
 
-/* ===============navbar section========== */
+/* ===============navbar section end========== */
+/* =================about us page start================= */
+#about_banner {
+    padding: 60px 0;
+}
+#who_we_are .who_we_are_wrapper,#about_us  #index_feature,#our_team  {
+    padding: 20px;
+}
+#process,#missoin_vission {
+    padding: 60px 0;
+}
+#missoin_vission .mission {
+    margin-bottom: 30px;
+}
+#index_feature .section_header h2 {
+    width: auto;
+}
+.index_feature_wrapper .index_feature_item {
+    padding: 10px;
+}
+#about_us #logo_section {
+    padding: 48px 0 60px;
+}
+#our_team .team_member {
+    
+    padding: 48px 40px 32px;
+}
+/* =================about us page end================= */
 /* ====================work page start=================== */
 .work_heder {
     padding: 60px 0;
@@ -289,7 +339,33 @@
         font-size: 16px;
     }
    
-
+/* =================about us page start================= */
+#about_banner {
+    padding: 60px 0;
+}
+#who_we_are .who_we_are_wrapper,#about_us  #index_feature,#our_team  {
+    padding: 20px;
+}
+#process,#missoin_vission {
+    padding: 60px 0;
+}
+#missoin_vission .mission {
+    margin-bottom: 30px;
+}
+#index_feature .section_header h2 {
+    width: auto;
+}
+.index_feature_wrapper .index_feature_item {
+    padding: 10px;
+}
+#about_us #logo_section {
+    padding: 48px 0 60px;
+}
+#our_team .team_member {
+    
+    padding: 48px 40px 32px;
+}
+/* =================about us page end================= */
     /* ==================single blog page start========================= */
 #blog_header .section_header h2 {
     width: auto;
@@ -333,4 +409,13 @@
     .footer_contact {
         padding: 17px 15px;
     }
+
+    /* =================about us page start================= */
+    .index_feature_wrapper .index_feature_item {
+        padding: 45px 0 45px 20px;
+    }
+#our_team .team_member {
+    padding: 48px 40px 32px;
+}
+/* =================about us page end================= */
 }
