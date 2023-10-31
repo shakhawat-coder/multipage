@@ -11,18 +11,19 @@
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body id="feature">
-  <nav class="navbar navbar-expand-lg position-absolute w-100 top-0 start-0 bg-transparent">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="/"><img src="./images/logo.png" alt="" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fa-solid fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav m-0 ms-auto ">
           <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
           </li>
@@ -42,10 +43,11 @@
             <a class="nav-link" href="blog.html">Blog</a>
           </li>
         </ul>
-        <a class="common_btn nav_btn" href="contact.html">Contact us</a>
+        <a class="common_btn nav_btn d-block ms-lg-5" href="contact.html">Contact us</a>
       </div>
     </div>
   </nav>
+  <!-- ======================bannner section================ -->
   <section id="banner">
     <div class="container">
       <div class="row banner_wrapper">
@@ -58,13 +60,12 @@
                 do eiusmod tempor incididunt.
               </p>
             </div>
-            <a class="common_btn banner_btn" href="contact.html">Contact us</a>
-            <a class="text-white" href="pricing.html">view pricing</a>
+            <a class="common_btn banner_btn" href="contact.html">view pricing</a>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 d-none d-md-block">
           <picture class="banner_image">
-            <img src="./images/feature_banner.png" alt="" />
+            <img class="img-fluid" src="./images/feature_banner.png" alt="" />
           </picture>
         </div>
       </div>
@@ -73,16 +74,16 @@
   <!-- {% comment %} ================logo section============= {% endcomment %} -->
   <section id="logo_section">
     <div class="container">
-      <div class="row logo_wrapper justify-content-evenly align-items-center">
-        <div class="col-lg-auto">
+      <div class="row logo_wrapper justify-content-start align-items-center row-gap-5">
+        <div class="col-6 col-sm-auto">
           <div class="logo_item">
             <h3>100.100+</h3>
             <span>Figma Users</span>
           </div>
         </div>
-        <div class="col-lg-auto">
-          <div class="logo_item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="162" height="32" viewBox="0 0 162 32" fill="none">
+        <div class="col-6 col-sm-auto">
+          <div class="logo_item ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="142" height="32" viewBox="0 0 162 32" fill="none">
               <g clip-path="url(#clip0_904_1006)">
                 <path
                   d="M24.7231 14.0828C24.2731 14.5374 23.9284 15.086 23.7137 15.6896C23.499 16.2932 23.4196 16.9369 23.481 17.5749L23.4596 17.5534C23.5227 18.3043 23.4219 19.06 23.1641 19.7677C22.9063 20.4755 22.4979 21.1182 21.9671 21.6511C21.4364 22.184 20.7962 22.5942 20.0912 22.853C19.3863 23.1118 18.6336 23.213 17.8857 23.1497L17.907 23.1711C17.0124 23.0875 16.1138 23.2829 15.3339 23.7308C14.5539 24.1787 13.9305 24.8573 13.5487 25.6739C13.1669 26.4905 13.0452 27.4056 13.2004 28.2941C13.3555 29.1827 13.7798 30.0016 14.4154 30.6393C15.0511 31.2768 15.8671 31.7021 16.7523 31.857C17.6375 32.012 18.5487 31.8889 19.3617 31.5049C20.1748 31.1209 20.85 30.4943 21.2954 29.7109C21.7408 28.9273 21.9347 28.025 21.8506 27.1269L21.8732 27.1483C21.81 26.3974 21.9109 25.6417 22.1687 24.9339C22.4265 24.2262 22.835 23.5834 23.3657 23.0506C23.8965 22.5177 24.5366 22.1076 25.2416 21.8488C25.9465 21.5899 26.6992 21.4887 27.4471 21.5521L27.4246 21.5306C28.1554 21.5966 28.891 21.4763 29.5632 21.1808C30.2354 20.8854 30.8224 20.4244 31.2698 19.8405C31.7173 19.2567 32.0107 18.5689 32.1229 17.8408C32.2352 17.1128 32.1625 16.368 31.9116 15.6757C31.6609 14.9833 31.2401 14.3657 30.6882 13.8802C30.1364 13.3946 29.4714 13.0568 28.7549 12.8979C28.0384 12.739 27.2935 12.7643 26.5893 12.9715C25.8852 13.1786 25.2445 13.5609 24.7267 14.0828H24.7231Z"
@@ -130,7 +131,7 @@
             </svg>
           </div>
         </div>
-        <div class="col-lg-auto">
+        <div class="col-6 col-sm-auto">
           <div class="logo_item">
             <svg xmlns="http://www.w3.org/2000/svg" width="138" height="32" viewBox="0 0 138 32" fill="none">
               <path d="M33.877 7.80566H36.9993V22.9675H33.877V7.80566Z" fill="#282938" />
@@ -170,7 +171,7 @@
             </svg>
           </div>
         </div>
-        <div class="col-lg-auto">
+        <div class="col-6 col-sm-auto">
           <div class="logo_item">
             <svg xmlns="http://www.w3.org/2000/svg" width="136" height="32" viewBox="0 0 136 32" fill="none">
               <g clip-path="url(#clip0_904_989)">
@@ -189,7 +190,7 @@
             </svg>
           </div>
         </div>
-        <div class="col-lg-auto">
+        <div class="col-6 col-sm-auto">
           <div class="logo_item">
             <svg xmlns="http://www.w3.org/2000/svg" width="155" height="32" viewBox="0 0 155 32" fill="none">
               <g clip-path="url(#clip0_904_995)">
@@ -232,7 +233,7 @@
             </svg>
           </div>
         </div>
-        <div class="col-lg-auto">
+        <div class="col-6 col-sm-auto">
           <div class="logo_item">
             <svg xmlns="http://www.w3.org/2000/svg" width="137" height="32" viewBox="0 0 137 32" fill="none">
               <path
@@ -363,8 +364,8 @@
   <section id="main_feature">
     <div class="best_in_class">
       <div class="container">
-        <div class="feature_item row align-items-center">
-          <div class="col-lg-6">
+        <div class="feature_item row align-items-center row-gap-4">
+          <div class="col-lg-6 order-1 order-md-0">
             <div class="section_header text-start">
               <span>Use Client-first</span>
               <h3>Top agencies and freelancers around the world use Client-first</h3>
@@ -372,10 +373,10 @@
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 order-0 order-md-1">
             <div class="feature_image">
               <picture>
-                <img src="./images/feature1.jpg" alt="">
+                <img class="img-fluid" src="./images/feature1.jpg" alt="">
               </picture>
             </div>
           </div>
@@ -384,11 +385,11 @@
     </div>
     <div class="free_responsive">
       <div class="container">
-        <div class="feature_item row free_responsive align-items-center">
+        <div class="feature_item row free_responsive align-items-center row-gap-4">
           <div class="col-lg-6">
             <div class="feature_image">
               <picture>
-                <img src="./images/feature2.jpg" alt="">
+                <img class="img-fluid" src="./images/feature2.jpg" alt="">
               </picture>
             </div>
           </div>
@@ -405,8 +406,8 @@
     </div>
     <div class="support">
       <div class="container">
-        <div class="feature_item row  align-items-center">
-          <div class="col-lg-6">
+        <div class="feature_item row  align-items-center row-gap-4">
+          <div class="col-lg-6 order-1 order-md-0">
             <div class="section_header text-start">
               <span>24/7 Support</span>
               <h3>Working with us, you will be getting 24/7 priority support</h3>
@@ -414,10 +415,10 @@
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 order-0 order-md-1">
             <div class="feature_image">
               <picture>
-                <img src="./images/feature3.jpg" alt="">
+                <img class="img-fluid" src="./images/feature3.jpg" alt="">
               </picture>
             </div>
           </div>
@@ -426,11 +427,11 @@
     </div>
     <div class="quick_delivery">
       <div class="container">
-        <div class="feature_item row  align-items-center">
+        <div class="feature_item row  align-items-center row-gap-4">
           <div class="col-lg-6">
             <div class="feature_image">
               <picture>
-                <img src="./images/feature4.jpg" alt="">
+                <img class="img-fluid" src="./images/feature4.jpg" alt="">
               </picture>
             </div>
           </div>
@@ -572,7 +573,7 @@
   <footer>
     <div class="upper_footer">
       <div class="container">
-        <div class="row justify-content-between">
+        <div class="row justify-content-between row-gap-5">
           <div class="col-md-5">
             <div class="footer_left">
               <picture class="footer_logo">
@@ -584,11 +585,11 @@
               </p>
               <div class="footer_contact">
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-lg-6">
                     <h6>Email me at</h6>
                     <span>contact@website.com</span>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-lg-6">
                     <h6>Call me at</h6>
                     <span>0927 6277 28525</span>
                   </div>
@@ -616,32 +617,25 @@
     </div>
     <div class="copyright">
       <div class="container">
-        <div class="copyright_wrapper d-flex justify-content-between">
+        <div
+          class="copyright_wrapper d-flex flex-wrap flex-md-nowrap justify-content-center justify-content-md-between ">
           <div class="copyright_text">
             <p class="common_p">Copyright 2022, Finsweet.com</p>
           </div>
-          <div class="footer_nav">
-            <ul class="footer_nav d-flex">
-              <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about_us.html">About us </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="feature.html">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pricing.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="faq.html">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-            </ul>
-          </div>
+          <ul class="footer_nav d-flex  justify-content-center justify-content-md-end p-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_us.html">About us </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

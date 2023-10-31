@@ -498,7 +498,7 @@ span{
 #main_feature .section_header h3{
     padding: 16px 0;
 }
-#main_feature .feature_image{
+/* #main_feature .feature_image{
     width: 575px;
     height: 398px;
     overflow: hidden;
@@ -507,7 +507,7 @@ span{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 #main_feature .free_responsive{
     background: var(--grey);
 }

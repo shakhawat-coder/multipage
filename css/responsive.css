@@ -17,10 +17,17 @@
         line-height: 1.5;
         
     }
+    #banner {
+        padding: 80px 0 68px;
+        background-color: var(--primary);
+    }
+    .banner_text h1 {
+        font-size: 38px;
+        line-height: 1.5;
+    }
     /* ===============navbar section========== */
     .navbar {
         padding: 10px 0;
-        background: rgba(22, 12, 109);
     }
     .navbar-brand img{
         width: 60%;
@@ -49,6 +56,12 @@
     }
 
 /* ===============navbar section========== */
+
+/* =================feature page start================= */
+#main_feature .feature_item {
+    padding: 60px 0;
+}
+/* =================feature page end================= */
 /* =================about us page start================= */
 #about_banner {
     padding: 60px 0;
@@ -148,14 +161,6 @@
 /* ====================contact us page end ============================ */
 
 
-
-
-
-
-
-
-
-
 /* =====================footer section================== */
 .upper_footer {
     padding: 60px 0 0;
@@ -182,10 +187,18 @@
 
 /* =====================small screen============= */
 @media (min-width:576px) and (max-width:767.99px) {
+    /* ===============common================== */
+    #banner {
+        padding: 80px 0 68px;
+        background-color: var(--primary);
+    }
+    .banner_text h1 {
+        font-size: 38px;
+        line-height: 1.5;
+    }
       /* ===============navbar section========== */
     .navbar {
         padding: 10px 0;
-        background: rgba(22, 12, 109);
     }
     .navbar-brand img{
         width: 60%;
@@ -310,8 +323,7 @@
 @media (min-width:768px) and (max-width:991.99px) {
     /* ===============navbar section========== */
     .navbar {
-        padding: 10px 0;
-        background: rgba(22, 12, 109);
+        padding: 10px 0;    
     }
     .navbar-brand img{
         width: 60%;
