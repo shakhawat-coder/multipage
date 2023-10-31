@@ -58,6 +58,23 @@
     width: auto;
     
 }
+ /* ====================work page start=================== */
+ .work_heder {
+    padding: 60px 0;
+}
+.work_heder .section_header p {
+    width: auto;
+}
+.cta_section h2 {
+    width: auto;
+    margin: 0 auto;
+}
+.cta_section p {
+    width: auto;
+   
+    padding-top: 20px;
+}
+/* ====================work page end=================== */
  /* ====================blog page start=================== */
  #blog_header {
     padding: 60px 0;
@@ -157,6 +174,23 @@
     }
 
 /* ===============navbar section========== */
+/* ====================work page start=================== */
+.work_heder {
+    padding: 60px 0;
+}
+.work_heder .section_header p {
+    width: auto;
+}
+.cta_section h2 {
+    width: auto;
+    margin: 0 auto;
+}
+.cta_section p {
+    width: auto;
+   
+    padding-top: 20px;
+}
+/* ====================work page end=================== */
 /* ==================single blog page start========================= */
 #blog_header .section_header h2 {
     width: auto;
