@@ -58,6 +58,13 @@
     width: auto;
     
 }
+/* ==================single blog page start========================= */
+#blog_header .section_header h2 {
+    width: auto;
+    margin: 0 auto;
+}
+
+/* ==================single blog page end========================= */
 
 /* ====================contact us page start============================ */
 #contact {
@@ -109,23 +116,7 @@
 /* =====================small screen============= */
 @media (min-width:576px) and (max-width:767.99px) {
       /* ================common=============== */
-      /* .common_p{
-        font-weight: 400;
-    }
-    h2 {
-        font-size: 38px;
-        font-weight: 600;
-        line-height: 48px;
-        margin: 0;
-    }
-    h3 {
-        
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        
-    } */
+ 
     /* ===============navbar section========== */
     .navbar {
         padding: 10px 0;
@@ -158,6 +149,13 @@
     }
 
 /* ===============navbar section========== */
+/* ==================single blog page start========================= */
+#blog_header .section_header h2 {
+    width: auto;
+    margin: 0 auto;
+}
+
+/* ==================single blog page end========================= */
 
 /* ===============Privacy page=================== */
 .privacy_content {
@@ -167,12 +165,6 @@
     width: auto;
     
 }
-
-
-
-
-
-
 
 
 
@@ -237,6 +229,14 @@
         font-weight: 500;
         font-size: 16px;
     }
+
+    /* ==================single blog page start========================= */
+#blog_header .section_header h2 {
+    width: auto;
+    margin: 0 auto;
+}
+
+/* ==================single blog page end========================= */
 
 
     /* =====================footer section================== */
