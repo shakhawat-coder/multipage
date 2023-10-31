@@ -1,55 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Multipage website</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Multipage website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img src="./images/logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-0 ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about_us.html">About us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="feature.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+        </ul>
+        <a class="common_btn nav_btn d-block ms-lg-5" href="contact.html">Contact us</a>
+      </div>
+    </div>
+  </nav>
+  <section id="blog_header">
+    <div class="container">
+      <div class="section_header">
+        <h2>
+          A UX Case Study on Creating a Studious Environment for Students
+        </h2>
+        <span class="d-block">Andrew Jonson Posted on 27th January 2021</span>
+        <picture>
+          <img class="img-fluid" src="./images/blog_main.jpg" alt="" />
+        </picture>
+        <p class="common_p">
+          Apparently we had reached a great height in the atmosphere, for the
+          sky was a dead black, and the stars had ceased to twinkle. By the
+          same illusion which lifts the horizon of the sea to the level of the
+          spectator on a hillside.
+        </p>
+        <a href="single_blog_page.html ">Read More</a>
+      </div>
+    </div>
+  </section>
+  <!-- =====================Our blog section============ -->
+  <section id="our_blog">
+    <div class="container">
+      <div class="section_header">
+        <h2>Our Blog</h2>
+      </div>
+      <div class="row blog_wrapper">
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./images/blog1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="card-title">27 Jan 2021</span>
+              <h4>
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </h4>
+              <p class="common_p">
+                See how pivoting to Webflow changed one person’s sales
+                strategy and allowed him to attract
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./images/blog2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="card-title">27 Jan 2021</span>
+              <h4>
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </h4>
+              <p class="common_p">
+                See how pivoting to Webflow changed one person’s sales
+                strategy and allowed him to attract
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./images/blog3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="card-title">27 Jan 2021</span>
+              <h4>
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </h4>
+              <p class="common_p">
+                See how pivoting to Webflow changed one person’s sales
+                strategy and allowed him to attract
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./images/blog4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="card-title">27 Jan 2021</span>
+              <h4>
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </h4>
+              <p class="common_p">
+                See how pivoting to Webflow changed one person’s sales
+                strategy and allowed him to attract
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./images/blog5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="card-title">27 Jan 2021</span>
+              <h4>
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </h4>
+              <p class="common_p">
+                See how pivoting to Webflow changed one person’s sales
+                strategy and allowed him to attract
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./images/blog6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="card-title">27 Jan 2021</span>
+              <h4>
+                How one Webflow user grew his single person consultancy from
+                $0-100K in 14 months
+              </h4>
+              <p class="common_p">
+                See how pivoting to Webflow changed one person’s sales
+                strategy and allowed him to attract
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="#" class="card-link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================Footer section==========-->
+  <footer>
+    <div class="upper_footer">
       <div class="container">
-        <a class="navbar-brand" href="/"
-          ><img src="./images/logo.png" alt=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+        <div class="row justify-content-between row-gap-5">
+          <div class="col-md-5">
+            <div class="footer_left">
+              <picture class="footer_logo">
+                <img src="./images/logo.png" alt="" />
+              </picture>
+              <p class="common_p">
+                We are always open to discuss your project and improve your
+                online presence.
+              </p>
+              <div class="footer_contact">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h6>Email me at</h6>
+                    <span>contact@website.com</span>
+                  </div>
+                  <div class="col-lg-6">
+                    <h6>Call me at</h6>
+                    <span>0927 6277 28525</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer_right">
+              <h2>Lets Talk!</h2>
+              <p class="common_p">
+                We are always open to discuss your project, improve your
+                online presence and help with your UX/UI design challenges.
+              </p>
+              <div class="social d-flex">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <div
+          class="copyright_wrapper d-flex flex-wrap flex-md-nowrap justify-content-center justify-content-md-between ">
+          <div class="copyright_text">
+            <p class="common_p">Copyright 2022, Finsweet.com</p>
+          </div>
+          <ul class="footer_nav d-flex  justify-content-center justify-content-md-end p-0">
             <li class="nav-item">
               <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about_us.html">About us </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="feature.html">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">Pricing</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="faq.html">FAQ</a>
@@ -58,238 +259,14 @@
               <a class="nav-link" href="blog.html">Blog</a>
             </li>
           </ul>
-          <a class="common_btn nav_btn" href="contact.html">Contact us</a>
         </div>
       </div>
-    </nav>
-    <section id="blog_header">
-      <div class="container">
-        <div class="section_header">
-          <h2>
-            A UX Case Study on Creating a Studious Environment for Students
-          </h2>
-          <span class="d-block">Andrew Jonson Posted on 27th January 2021</span>
-          <picture>
-            <img src="./images/blog_main.jpg" alt="" />
-          </picture>
-          <p class="common_p">
-            Apparently we had reached a great height in the atmosphere, for the
-            sky was a dead black, and the stars had ceased to twinkle. By the
-            same illusion which lifts the horizon of the sea to the level of the
-            spectator on a hillside.
-          </p>
-          <a href="single_blog_page.html ">Read More</a>
-        </div>
-      </div>
-    </section>
-    <!-- =====================Our blog section============ -->
-    <section id="our_blog">
-      <div class="container">
-        <div class="section_header">
-          <h2>Our Blog</h2>
-        </div>
-        <div class="row blog_wrapper">
-          <div class="col-md-6 col-lg-4">
-            <div class="card">
-              <img src="./images/blog1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <span class="card-title">27 Jan 2021</span>
-                <h4>
-                  How one Webflow user grew his single person consultancy from
-                  $0-100K in 14 months
-                </h4>
-                <p class="common_p">
-                  See how pivoting to Webflow changed one person’s sales
-                  strategy and allowed him to attract
-                </p>
-              </div>
-              <div class="card-body">
-                <a href="#" class="card-link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card">
-              <img src="./images/blog2.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <span class="card-title">27 Jan 2021</span>
-                <h4>
-                  How one Webflow user grew his single person consultancy from
-                  $0-100K in 14 months
-                </h4>
-                <p class="common_p">
-                  See how pivoting to Webflow changed one person’s sales
-                  strategy and allowed him to attract
-                </p>
-              </div>
-              <div class="card-body">
-                <a href="#" class="card-link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card">
-              <img src="./images/blog3.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <span class="card-title">27 Jan 2021</span>
-                <h4>
-                  How one Webflow user grew his single person consultancy from
-                  $0-100K in 14 months
-                </h4>
-                <p class="common_p">
-                  See how pivoting to Webflow changed one person’s sales
-                  strategy and allowed him to attract
-                </p>
-              </div>
-              <div class="card-body">
-                <a href="#" class="card-link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card">
-              <img src="./images/blog4.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <span class="card-title">27 Jan 2021</span>
-                <h4>
-                  How one Webflow user grew his single person consultancy from
-                  $0-100K in 14 months
-                </h4>
-                <p class="common_p">
-                  See how pivoting to Webflow changed one person’s sales
-                  strategy and allowed him to attract
-                </p>
-              </div>
-              <div class="card-body">
-                <a href="#" class="card-link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card">
-              <img src="./images/blog5.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <span class="card-title">27 Jan 2021</span>
-                <h4>
-                  How one Webflow user grew his single person consultancy from
-                  $0-100K in 14 months
-                </h4>
-                <p class="common_p">
-                  See how pivoting to Webflow changed one person’s sales
-                  strategy and allowed him to attract
-                </p>
-              </div>
-              <div class="card-body">
-                <a href="#" class="card-link">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card">
-              <img src="./images/blog6.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <span class="card-title">27 Jan 2021</span>
-                <h4>
-                  How one Webflow user grew his single person consultancy from
-                  $0-100K in 14 months
-                </h4>
-                <p class="common_p">
-                  See how pivoting to Webflow changed one person’s sales
-                  strategy and allowed him to attract
-                </p>
-              </div>
-              <div class="card-body">
-                <a href="#" class="card-link">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+  </footer>
 
-    <!-- =================Footer section==========-->
-    <footer>
-      <div class="upper_footer">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-md-5">
-              <div class="footer_left">
-                <picture class="footer_logo">
-                  <img src="./images/logo.png" alt="" />
-                </picture>
-                <p class="common_p">
-                  We are always open to discuss your project and improve your
-                  online presence.
-                </p>
-                <div class="footer_contact">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <h6>Email me at</h6>
-                      <span>contact@website.com</span>
-                    </div>
-                    <div class="col-md-6">
-                      <h6>Call me at</h6>
-                      <span>0927 6277 28525</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="footer_right">
-                <h2>Lets Talk!</h2>
-                <p class="common_p">
-                  We are always open to discuss your project, improve your
-                  online presence and help with your UX/UI design challenges.
-                </p>
-                <div class="social d-flex">
-                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="copyright">
-        <div class="container">
-          <div class="copyright_wrapper d-flex justify-content-between">
-            <div class="copyright_text">
-              <p class="common_p">Copyright 2022, Finsweet.com</p>
-            </div>
-            <div class="footer_nav">
-              <ul class="footer_nav d-flex">
-                <li class="nav-item">
-                  <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about_us.html">About us </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="feature.html">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pricing.html">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="faq.html">FAQ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>

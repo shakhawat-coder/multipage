@@ -58,6 +58,14 @@
     width: auto;
     
 }
+ /* ====================blog page start=================== */
+ #blog_header {
+    padding: 60px 0;
+}
+#blog_header .section_header p {
+    width: auto;
+}
+/* ====================blog page end=================== */
 /* ==================single blog page start========================= */
 #blog_header .section_header h2 {
     width: auto;
@@ -229,6 +237,7 @@
         font-weight: 500;
         font-size: 16px;
     }
+   
 
     /* ==================single blog page start========================= */
 #blog_header .section_header h2 {
