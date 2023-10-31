@@ -59,8 +59,17 @@
     
 }
 
+/* ====================contact us page start============================ */
+#contact {
+    padding: 60px 0 40px;
+}
 
+#contact .section_header p {
+    width: auto;
+    
+}
 
+/* ====================contact us page end ============================ */
 
 
 
