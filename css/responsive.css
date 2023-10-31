@@ -75,6 +75,23 @@
     padding-top: 20px;
 }
 /* ====================work page end=================== */
+
+/* ====================pricing page start=================== */
+#pricing .section_header {
+    padding: 60px 0;
+    width: auto;
+}
+#faq {
+    padding: 60px 0;
+}
+.accordion-header .count {
+    
+    padding-right: 20px;
+}
+
+/* ====================pricing page end=================== */
+
+
  /* ====================blog page start=================== */
  #blog_header {
     padding: 60px 0;
