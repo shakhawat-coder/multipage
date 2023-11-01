@@ -4,7 +4,7 @@
         font-weight: 400;
     }
     h2 {
-        font-size: 38px;
+        font-size: 32px;
         font-weight: 600;
         line-height: 48px;
         margin: 0;
@@ -56,10 +56,67 @@
     }
 
 /* ===============navbar section========== */
+/* =====================index page================ */
+.banner_btn {
+    padding: 16px 26px;
+    margin-right: 10px;
+}
+#how_it_work,#view_project,#index_feature,#testimony {
+    padding: 60px 0;
+}
+#how_it_work .section_header p {
+    width: auto;
+}
 
+#view_project .left_project .overlay .overlay_wrapper {
+    padding: 312px 0 0 20px;
+}
+#view_project .left_project .overlay .overlay_wrapper h5 {
+    width: 220px;
+}
+#view_project .left_project .overlay .overlay_wrapper p {
+    width: 230px;
+    padding: 16px 0 40px;
+}
+#view_project .left_project:hover .overlay{
+    width: 90%;
+    opacity: 1;
+    transition: .3s;
+}
+#testimony .testimony_text {
+    font-size: 20px;    
+    line-height: 1.5;
+}
+#testimony .section_header p {
+    width: auto;
+}
+#testimony .arrows {
+    column-gap: 0;
+}
+#index_contact {
+    padding: 0 0 60px;
+}
+#index_contact .contact_form {
+    padding: 96px 20px 48px;
+}
+#index_contact h1 {
+    width: auto;
+    color: var(--white);
+}
 /* =================feature page start================= */
+
 #main_feature .feature_item {
     padding: 60px 0;
+}
+#index_contact .left {
+    padding: 20px;
+}
+#index_contact .contact_form h5 {
+    width: auto;
+}
+#index_contact p {
+    width: auto;
+    
 }
 /* =================feature page end================= */
 /* =================about us page start================= */
@@ -227,6 +284,12 @@
     }
 
 /* ===============navbar section end========== */
+/* ====================index page================= */
+#view_project .left_project:hover .overlay{
+    width: 80%;
+    opacity: 1;
+    transition: .3s;
+}
 /* =================about us page start================= */
 #about_banner {
     padding: 60px 0;
@@ -288,12 +351,6 @@
     
 }
 
-
-
-
-
-
-
 /* =====================footer section================== */
 .upper_footer {
     padding: 60px 0 0;
@@ -351,6 +408,22 @@
         font-size: 16px;
     }
    
+    /* ======================index page============= */
+    #banner {
+        padding: 118px 0 60px;
+        background-color: var(--primary);
+    }
+    .banner_text h1 {
+        font-size: 38px;
+        line-height: 1.5;
+    }
+    .banner_btn {
+        padding: 16px 36px;
+        margin-right: 10px;
+    }
+    #view_project .left_project:hover .overlay{
+        width: 60%;
+    }
 /* =================about us page start================= */
 #about_banner {
     padding: 60px 0;

@@ -236,7 +236,7 @@ span{
     background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
     display: flex;
     align-items: start;
-    justify-content: center;
+    /* justify-content: center; */
 }
 #view_project .left_project .overlay .overlay_wrapper{
     color: #ffffff;
@@ -421,6 +421,13 @@ span{
 #index_contact{
     padding: 0 0 128px; 
 }
+#index_contact .left{
+    padding: 96px 96px 261px; 
+    background: url(../images/index_contact.png);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+}
 #index_contact h1{
     width: 464px;
     color: var(--white);
@@ -450,7 +457,7 @@ span{
     margin-bottom: 40px;
 }
 #index_contact .contact_form input{
-    width: 432px;
+    /* width: 432px; */
     color: var(--white);
     background: transparent;
     border: 1.5px solid rgba(255, 255, 255, 0.05);
@@ -465,7 +472,8 @@ span{
     margin-top: 16px;
 }
 #index_contact .contact_form form .index_contact_btn{
-    padding: 16px 150px;
+    padding: 16px 0;
+    width: 100%;
     margin-bottom: 28px;
 }
 #index_contact .contact_form a{
@@ -476,10 +484,6 @@ span{
     font-weight: 500;
     line-height: 32px;
 }
-
-
-
-
 /* =========================================================================================================================================================================Feature  page========================================   =========================================================================================*/
 #feature #index_feature,#about_us  #index_feature{
     padding: 0;
