@@ -103,6 +103,7 @@
     width: auto;
     color: var(--white);
 }
+
 /* =================feature page start================= */
 
 #main_feature .feature_item {
@@ -316,6 +317,12 @@
     
     padding: 48px 40px 32px;
 }
+#index_contact .contact_form h5 {
+    width: auto;
+}
+#index_contact p {
+    width: auto;
+}
 /* =================about us page end================= */
 /* ====================work page start=================== */
 .work_heder {
@@ -458,7 +465,12 @@
 }
 
 /* ==================single blog page end========================= */
-
+#index_contact .contact_form h5 {
+    width: auto;
+}
+#index_contact p {
+    width: auto;
+}
 
     /* =====================footer section================== */
 .upper_footer {
@@ -490,6 +502,13 @@
 
 /* =====================large screen============= */
 @media (min-width:992px) and (max-width:1199.99px) {
+
+    #index_contact .contact_form h5 {
+        width: auto;
+    }
+    #index_contact p {
+        width: auto;
+    }
 
     .footer_contact {
         padding: 17px 15px;
