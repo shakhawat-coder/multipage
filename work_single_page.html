@@ -11,20 +11,19 @@
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="./index.html">
-        <img src="./images/logo.png" alt="" />
-      </a>
+      <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fa-solid fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav m-0 ms-auto ">
           <li class="nav-item">
             <a class="nav-link" href="./index.html">Home</a>
           </li>
@@ -44,11 +43,11 @@
             <a class="nav-link" href="blog.html">Blog</a>
           </li>
         </ul>
-        <a class="common_btn nav_btn" href="contact.html">Contact us</a>
+        <a class="common_btn nav_btn d-block ms-lg-5" href="contact.html">Contact us</a>
       </div>
     </div>
   </nav>
-  <!-- {% comment %} ==========section header============ {% endcomment %} -->
+  <!--  ==========section header============ -->
   <section id="read_case_header">
     <div class="container">
       <div class="row">
@@ -148,7 +147,7 @@
       <div class="row">
         <div class="col-lg-2"></div>
         <div class="col-lg-9">
-          <div class="row keyword_wrapper justify-content-between align-items-center">
+          <div class="row keyword_wrapper justify-content-start align-items-center">
             <div class="col-auto">
               <h4>Keywords</h4>
             </div>
@@ -193,7 +192,7 @@
   <footer>
     <div class="upper_footer">
       <div class="container">
-        <div class="row justify-content-between">
+        <div class="row justify-content-between row-gap-5">
           <div class="col-md-5">
             <div class="footer_left">
               <picture class="footer_logo">
@@ -205,11 +204,11 @@
               </p>
               <div class="footer_contact">
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-lg-6">
                     <h6>Email me at</h6>
                     <span>contact@website.com</span>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-lg-6">
                     <h6>Call me at</h6>
                     <span>0927 6277 28525</span>
                   </div>
@@ -237,32 +236,25 @@
     </div>
     <div class="copyright">
       <div class="container">
-        <div class="copyright_wrapper d-flex justify-content-between">
+        <div
+          class="copyright_wrapper d-flex flex-wrap flex-md-nowrap justify-content-center justify-content-md-between ">
           <div class="copyright_text">
             <p class="common_p">Copyright 2022, Finsweet.com</p>
           </div>
-          <div class="footer_nav">
-            <ul class="footer_nav d-flex">
-              <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about_us.html">About us </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="feature.html">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pricing.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="faq.html">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-            </ul>
-          </div>
+          <ul class="footer_nav d-flex  justify-content-center justify-content-md-end p-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_us.html">About us </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

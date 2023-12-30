@@ -1,3 +1,5 @@
+/* =====================extra small screen============= */
+
 @media (max-width:575.99px) {
     /* ================common=============== */
     .common_p{
@@ -25,7 +27,7 @@
         font-size: 38px;
         line-height: 1.5;
     }
-    /* ===============navbar section========== */
+    /* ===============navbar section start========== */
     .navbar {
         padding: 10px 0;
     }
@@ -55,8 +57,8 @@
         font-size: 16px;
     }
 
-/* ===============navbar section========== */
-/* =====================index page================ */
+/* ===============navbar section end========== */
+/* =====================index page start================ */
 .banner_btn {
     padding: 16px 26px;
     margin-right: 10px;
@@ -103,6 +105,8 @@
     width: auto;
     color: var(--white);
 }
+
+/* =================Index page end================= */
 
 /* =================feature page start================= */
 
@@ -156,6 +160,7 @@
     width: auto;
     
 }
+ /* ====================Privacy page end=================== */
  /* ====================work page start=================== */
  .work_heder {
     padding: 60px 0;
@@ -173,6 +178,19 @@
     padding-top: 20px;
 }
 /* ====================work page end=================== */
+/* ====================work single page start=================== */
+#read_case_header {
+    padding: 60px 0 48px;
+}
+#read_case_header h2 {
+    
+    width: auto;
+}
+#read_case_header p {
+    width: auto;
+}
+
+/* ====================work single page end=================== */
 
 /* ====================pricing page start=================== */
 #pricing .section_header {
@@ -341,6 +359,27 @@
     padding-top: 20px;
 }
 /* ====================work page end=================== */
+/* ====================work single page start=================== */
+#read_case_header {
+    padding: 60px 0 48px;
+}
+#read_case_header h2 {
+    
+    width: auto;
+}
+#read_case_header p {
+    width: auto;
+}
+
+/* ====================work single page end=================== */
+ /* ====================blog page start=================== */
+ #blog_header {
+    padding: 60px 0;
+}
+#blog_header .section_header p {
+    width: auto;
+}
+/* ====================blog page end=================== */
 /* ==================single blog page start========================= */
 #blog_header .section_header h2 {
     width: auto;
@@ -458,6 +497,27 @@
     padding: 48px 40px 32px;
 }
 /* =================about us page end================= */
+/* ====================work single page start=================== */
+#read_case_header {
+    padding: 60px 0 48px;
+}
+#read_case_header h2 {
+    
+    width: auto;
+}
+#read_case_header p {
+    width: auto;
+}
+
+/* ====================work single page end=================== */
+ /* ====================blog page start=================== */
+ #blog_header {
+    padding: 60px 0;
+}
+#blog_header .section_header p {
+    width: auto;
+}
+/* ====================blog page end=================== */
     /* ==================single blog page start========================= */
 #blog_header .section_header h2 {
     width: auto;
@@ -518,8 +578,8 @@
     .index_feature_wrapper .index_feature_item {
         padding: 45px 0 45px 20px;
     }
-#our_team .team_member {
-    padding: 48px 40px 32px;
-}
+    #our_team .team_member {
+        padding: 48px 40px 32px;
+    }
 /* =================about us page end================= */
 }
